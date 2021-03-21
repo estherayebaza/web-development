@@ -1,6 +1,6 @@
 function getGrade(marks){
-    var marks=40;
-    var marks=58;
+
+var marks=90;
 
 if (marks>=80){console.log("A");}
 else if(marks>=70){console.log("B");}
