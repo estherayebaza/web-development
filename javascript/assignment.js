@@ -1,15 +1,12 @@
-function getGrade(marks){
+class KioskCalc {
+    constructor(fruit, quantity) {
+        this.fruit = "orange";
+        this.quantity = 2;
+    }
+    getTotalCost() {
+        return `${this.quantity} ${this.fruit}$ for KES ${30*this.quantity}`;
 
-var marks=90;
-
-if (marks>=80){console.log("A");}
-else if(marks>=70){console.log("B");}
-else if(marks>=60)
-{console.log("C");}
-else if(marks>=50)
-{console.log("D");}
-else if(marks>=40)
-{console.log("E");}
-else {console.log("F");}
-
-}getGrade()
+    }
+}
+var kioskCalc = new KioskCalc("orange", 2)
+console.log(kioskCalc.getTotalCost());
