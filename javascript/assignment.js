@@ -4,7 +4,7 @@ class KioskCalc {
         this.quantity = 2;
     }
     getTotalCost() {
-        return `${this.quantity} ${this.fruit}$ for KES ${30*this.quantity}`;
+        return `${this.quantity} ${this.fruit} for KES ${30*this.quantity}`;
 
     }
 }
